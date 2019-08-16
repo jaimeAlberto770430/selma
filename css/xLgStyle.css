@@ -1,0 +1,85 @@
+@media (min-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: black;
+    }
+    body {
+        font-size: 16px;
+        padding: 5em 0 0 0;
+        box-sizing: border-box;
+    }
+    .header {
+        position: fixed;
+        top: 1em;
+        width: 100%;
+        background: rgba(255, 255, 255, 01);
+        padding: 0.1em 0;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div>a {
+        text-decoration: none;
+    }
+    .frm11 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em 3em;
+    }
+    .frm11 img {
+        width: 6em;
+    }
+    .frm12 {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .frm121 {
+        width: 60%;
+        padding: 0 3%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .frm122 {
+        width: 40%;
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .frm1221 {
+        width: 50%;
+        height: 1.5em;
+        font-size: 1em;
+        background: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5em;
+    }
+    .frm1222 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .frm13 {
+        display: none;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+    }
+    .frm13>img {}
+    .eng {
+        display: none;
+    }
+    .esp {}
+}
