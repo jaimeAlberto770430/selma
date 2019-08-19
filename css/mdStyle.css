@@ -87,4 +87,17 @@
     .esp {
         padding: 0.5em;
     }
+    .slider {
+        width: 90%;
+        margin: auto;
+    }
+    .slide {
+        width: 100%;
+    }
+    .show {
+        display: flex;
+    }
+    .hide {
+        display: none;
+    }
 }
