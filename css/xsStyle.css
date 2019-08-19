@@ -1,4 +1,4 @@
-8@media (min-width: 400px) {
+@media (min-width: 400px) {
     * {
         margin: 0;
         padding: 0;
@@ -18,43 +18,47 @@
         padding: 0.1em 0;
         text-decoration: none;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
     div>a {
         text-decoration: none;
     }
     .frm11 {
-        width: 30%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0.5em 3em;
+        background: yellow;
     }
     .frm11 img {
         width: 6em;
     }
     .frm12 {
-        width: 70%;
+        width: 100%;
         display: none;
+        flex-direction: column;
         justify-content: space-between;
+        background: yellowgreen;
     }
     .frm121 {
-        width: 60%;
+        width: 100%;
         padding: 0 3%;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
     }
     .frm122 {
-        width: 40%;
+        width: 100%;
         padding: 0 5%;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
     }
     .frm1221 {
-        width: 50%;
         height: 1.5em;
         background: orange;
         display: flex;
@@ -63,7 +67,6 @@
         border-radius: 0.5em;
     }
     .frm1222 {
-        width: 50%;
         padding: 0.5em;
         display: flex;
         justify-content: center;
@@ -76,8 +79,31 @@
     .frm1223>img {
         width: 50%;
     }
+    .frm13 {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+    }
+    .frm13>img {
+        width: 3em;
+    }
     .eng {
         display: none;
     }
     .esp {}
+    .slider {
+        width: 90%;
+        margin: auto;
+    }
+    .slide {
+        width: 100%;
+    }
+    .show {
+        display: flex;
+    }
+    .hide {
+        display: none;
+    }
 }

@@ -1,4 +1,4 @@
-@media (min-width: 400px) {
+@media (max-width: 400px) {
     * {
         margin: 0;
         padding: 0;
@@ -20,26 +20,28 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
     div>a {
         text-decoration: none;
     }
     .frm11 {
-        width: 30%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0.5em 3em;
+        background: yellow;
     }
     .frm11 img {
         width: 6em;
     }
     .frm12 {
-        width: 70%;
+        width: 100%;
         display: none;
         flex-direction: column;
         justify-content: space-between;
+        background: yellowgreen;
     }
     .frm121 {
         width: 100%;
@@ -91,7 +93,17 @@
         display: none;
     }
     .esp {}
+    .slider {
+        width: 90%;
+        margin: auto;
+    }
+    .slide {
+        width: 100%;
+    }
     .show {
         display: flex;
+    }
+    .hide {
+        display: none;
     }
 }
